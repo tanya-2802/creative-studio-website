@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --bg-color: #121212;
+  --card-color: #1E1E1E;
+  --primary-color: #FACC15; /* Yellow */
+  --text-color: #E5E7EB;
+  --heading-color: #FFFFFF;
+  --secondary-text-color: #9CA3AF;
+  --border-color: #374151;
+}
+/* Variables for Light Mode */
+body.light-mode {
+  --bg-color: #FFFFFF;
+  --card-color: #F3F4F6;
+  --primary-color: #F59E0B;
+  --text-color: #1F2937;
+  --heading-color: #111827;
+  --secondary-text-color: #4B5563;
+  --border-color: #D1D5DB;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+h1,h2,h3,h4,h6,h6{
+  font-family: 'Playfair Display', serif;
+  color: var(--heading-color);
+}
+.section{
+  padding: 6rem 8%;
+  text-align: center;
+}
+.section-title{
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--heading-color);
+}
+.btn {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #eab308;
+}

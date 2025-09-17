@@ -1,0 +1,56 @@
+.hero-section {
+  height: 100vh;
+  background-color: #000; /* Fallback background */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 65px; /* Adjust this value based on your navbar's height */
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  background-color: rgba(28, 28, 28, 0.8);
+  padding: 3rem 4rem;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+/* Style for the animated heading */
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  /* Ensure the h1 has a consistent height even when empty */
+  min-height: 100px; 
+  color: #FFFFFF; 
+}
+
+.typing-cursor {
+  display: inline-block;
+  width: 4px;
+  height: 3.5rem; /* Match the font size */
+  background-color: var(--primary-color);
+  margin-left: 8px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
