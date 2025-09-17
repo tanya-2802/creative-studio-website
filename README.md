@@ -8,25 +8,23 @@ This is a fully responsive landing page for a fictional creative agency, built f
 
 ## Screenshot
 
-![Creative Studio Screenshot]
----
-(./public/1.png)
----
-(./public/2.png)
----
-(./public/3.png)
----
-(./public/4.png)
----
-(./public/5.png)
----
-(./public/6.png)
----
-(./public/7.png)
----
-(./public/8.png)
+### Screenshots
 
-
+![Screenshot 1](./public/1.png)
+---
+![Screenshot 2](./public/2.png)
+---
+![Screenshot 3](./public/3.png)
+---
+![Screenshot 4](./public/4.png)
+---
+![Screenshot 5](./public/5.png)
+---
+![Screenshot 6](./public/6.png)
+---
+![Screenshot 7](./public/7.png)
+---
+![Screenshot 8](./public/8.png)
 ---
 
 ## Features
