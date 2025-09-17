@@ -1,5 +1,5 @@
 import './About.css';
-// import AboutImg from '../assets/about-img.jpg'; // Comment this out if you don't have the image
+import AboutImg from '../assets/about-img.jpg'; // Comment this out if you don't have the image
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-image">
           {/* If you don't have the image, you can temporarily remove the <img> tag */}
-          {/* <img src={AboutImg} alt="Our team working" /> */}
+          <img src={AboutImg} alt="Our team working" />
         </div>
         <div className="about-content">
           <h2>About Our Studio</h2>
